@@ -1,0 +1,143 @@
+#foliopants {
+    background-image: url(../images/img-trousers.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: ;
+    background-size: contain;
+    background-color: transparent;
+    padding-right: -5px;
+    padding-left: -5px;
+    max-height: 100%;
+    height: 100%;
+    max-width: ;
+    
+}
+
+
+
+.contactimage{
+    background: transparent;
+    padding-top: 20vh;
+    padding-left: 8%;
+    padding-right: 5%;
+
+}
+
+.rightpocket {
+    background: white;
+    opacity: 0.8;
+    border: dashed;
+}
+
+.leftpocket {
+    background: white;
+    opacity: 0.8;
+    border: dashed;
+}
+
+.contact-box{
+	font-size:11px;
+	line-height:13px;
+}
+
+.contact-box.left{left:;}
+.contact-box.right{
+	right: ;
+	text-align:right;
+}
+
+.contact-box a{
+	text-decoration:none;
+	color:#754443;
+}
+
+.contact-box a:hover{color:#e1344f;}
+.contact-box h2{
+	font:19px/22px "Comic Sans MS", cursive, sans-serif;
+	letter-spacing:-1px;
+	word-spacing:-1px;
+	color:#f00;
+}
+.contact-box .text-beverly-hills,
+.contact-box .text-new-york{
+	font-size:0;
+	line-height:0;
+	background:url(images/text-sprite.png) no-repeat;
+	width:;
+	height:;
+	text-indent:;
+	overflow: hidden;
+	display: ;
+	vertical-align:;
+}
+
+
+.contact-box h2 span{
+	font-size:14px;
+	line-height:17px;
+	font-weight:bold;
+	letter-spacing:0;
+	word-spacing:-2px;
+	display:;
+}
+.contact-box .text-beverly-hills span,
+.contact-box .text-new-york span{
+	font-size:0;
+	line-height:0;
+}
+.contact-box address{
+
+}
+.contact-box .address-beverly-hills,
+.contact-box .address-new-york{
+	background:url(../images/text-sprite.png) no-repeat 0 0px;
+	width: 150px;
+	height:200px;
+    
+	overflow: ;
+	font-size:0;
+	line-height:0;
+}
+.contact-box .address-new-york{
+	background-position:-270px 0px;
+	width:130px;
+	height:200px;
+    float: right;
+}
+.contact-box .email-esearcy,
+.contact-box .email-julia,
+.contact-box .text-link{
+	background:url(../images/text-sprite.png) no-repeat 0 -101px;
+	text-indent:;
+	overflow: ;
+	font-size:0;
+	line-height:0;
+	display: ;
+}
+.contact-box .text-link{
+	display:;
+	vertical-align:;
+}
+.contact-box .email-esearcy{
+    background:url(../images/text-sprite.png) no-repeat 0 101px;
+	width:116px;
+	height:12px;
+	background-position:0 -168px;
+}
+.contact-box .email-julia{
+	width: ;
+	height: ;
+	background-position:0 -188px;
+}
+.contact-box .text-link{
+	width:66px;
+	height:9px;
+	background-position:-334px -191px;
+	text-align:left;
+}
+.contact-box .email-esearcy a,
+.contact-box .email-julia a,
+.contact-box .text-link a{
+	display: ;
+	height: ;
+}

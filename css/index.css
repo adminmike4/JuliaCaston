@@ -1,0 +1,76 @@
+html {
+    overflow-x: hidden;
+}
+
+.home {
+    height: 100%;
+}
+
+.shirt {
+    margin-bottom: -1.5%;
+    background-image: url(../images/img-shirt.png);  
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center;
+    animation: slidedown 1s linear forwards;
+    height: 45%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.shirt:hover {
+    -webkit-transform: scale(1.15);
+        -ms-transform: scale(1.15);
+            transform: scale(1.15);
+}
+
+.pants {
+    background-image: url(../images/img-trousers.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35%;
+    background-position: center center;
+    animation: slideup 1.2s linear forwards;
+    transition: transform 0.5s ease-in-out;
+}
+
+.pants:hover {
+    -webkit-transform: scale(1.10);
+        -ms-transform: scale(1.10);
+            transform: scale(1.10);
+}
+
+.shoes {
+    height: 15%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.shoes:hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.shoe {
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.leftshoe {    
+    background-image: url(../images/img-shoe-left.png);
+    background-position: center center;
+    animation: slideup 1.4s linear forwards;
+}
+
+.rightshoe {
+    background-image: url(../images/img-shoe-right.png);
+    background-position: center center;
+    animation: slideup 1.5s linear forwards;
+}
+
+.disappear {
+    background-color: blue;
+    animation: shrinkout 1.5s ease-in-out forwards;
+}

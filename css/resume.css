@@ -1,0 +1,60 @@
+html {
+    overflow-y: hidden;
+}
+
+.wholeresume {
+    height: 100%;
+}
+
+.btn-grey {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-out;
+    animation: falldown 0.4s ease-out forwards;
+}
+
+.btn-grey:hover {
+    transform: scale(1.2);
+}
+
+.btn-grey:active {
+    transform: scale(1);
+}
+
+.shoes {
+    height: 20%;
+    transition: transform 0.2s ease-in-out;
+    animation: falldown 0.5s ease-out forwards;
+}
+
+.shoe {
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-height: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.leftshoe {    
+    background-image: url(../images/img-shoe-left.png);
+    background-position: center center;
+}
+
+.rightshoe {
+    background-image: url(../images/img-shoe-right.png);
+    background-position: center center;
+}
+
+.resumecontent {
+    max-height: 70%;
+    padding-right: 30px;
+    animation: riseup 1s ease-out forwards;
+}
+
+.empty {
+    height: 10%;
+}
+
+h2 {
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 340px) {
+
+.navbar-brand img{
+    width: 100px;
+    height: auto;
+    padding-right: 0px;
+    }    
+     
+}
+
+.navbar-brand img{
+       animation: opacityfadein 1s forwards; 
+    -webkit-animation: opacityfadein 1s forwards;
+}
+
+.navbar-brand img:hover {
+          animation: opacityfadeout 1s forwards; 
+    -webkit-animation: opacityfadeout 1s forwards;
+}
+
+.navbar-brand img:active{
+    
+}
+
+.navcontainer {
+    flex: none;
+}
+

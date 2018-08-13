@@ -1,0 +1,292 @@
+.logo,
+#nav,
+.page-folio.folio-step2,
+.btn-grey,
+.page-folio .visual.shirt,
+.loading,
+.switcher{display:none !important;}
+body{
+	color:#000;
+	font:11px/13px Arial, Helvetica, sans-serif;
+}
+#wrapper{position:relative;}
+.print-logo{
+	position:absolute;
+	top:50px;
+	left:0;
+	width:147px;
+	height:32px;
+	z-index:10;
+}
+.print-shirt,
+.print-trousers,
+.visual-print{
+	display:block;
+	margin:0 auto;
+}
+.print-shirt{
+	width:322px;
+	height:388px;
+}
+.print-trousers{
+	width:221px;
+	height:272px;
+	margin:-28px auto 15px;
+}
+.print-shoe-left{
+	float:left;
+	width:60px;
+	height:123px;
+}
+.print-shoe-right{
+	float:right;
+	width:60px;
+	height:121px;
+}
+.visual-print{
+	overflow:hidden;
+	width:234px;
+	height:126px;
+}
+.visual{
+	display:block;
+	margin:0 auto;
+}
+.visual img,
+.gallery-holder .decor{
+	width:100%;
+	height:100%;
+	display:block;
+}
+.gallery-holder{
+	width:646px !important;
+	height:771px !important;
+	vertical-align:top;
+	position:relative !important;
+	text-align:left;
+	padding:0;
+	margin:0 auto;
+}
+.gallery-holder img{
+	width:646px !important;
+	height:771px !important;
+}
+.page-contact,
+.page-contact .visual{
+	width:571px !important;
+	height:704px !important;
+	margin:0 auto;
+	position:relative;
+}
+.page-contact .visual img{
+	width:571px !important;
+	height:704px !important;
+	display:block;
+}
+.boxes{
+	text-align:left;
+	width:571px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.contact-box{
+	width:150px;
+	font-size:11px;
+	line-height:13px;
+	position:absolute;
+	left:60px;
+	top:190px;
+}
+.contact-box.right{
+	text-align:right;
+	top:190px;
+	right:42px;
+	left:auto;
+}
+.contact-box p{margin:0;}
+.contact-box a{
+	text-decoration:none;
+	color:#000;
+}
+.contact-box h2{
+	font:bold 17px/23px "Comic Sans MS", cursive, sans-serif;
+	margin:0 0 3px;
+	word-spacing:-1px;
+}
+.contact-box h2 span{
+	font-size:14px;
+	line-height:17px;
+	letter-spacing:0;
+	word-spacing:-2px;
+	display:block;
+}
+.contact-box address{
+	font-style:normal;
+	margin:0 0 5px;
+}
+.page-folio,
+.page-contact{
+	text-align:center;
+	page-break-before:always;
+	width:100%;
+}
+.page-resume .visual.shoes{
+	width:431px !important;
+	height:263px !important;
+	margin:0 auto;
+	display:block !important;
+	page-break-before:always;
+}
+.page-resume .visual .shoe-left{
+	float:left;
+	width:94px !important;
+	height:260px !important;
+}
+.page-resume .visual .shoe-left img{
+	width:94px !important;
+	height:260px !important;
+}
+.page-resume .visual .shoe-right{
+	float:right;
+	width:93px !important;
+	height:257px !important;
+}
+.page-resume .visual .shoe-right img{
+	width:93px !important;
+	height:257px !important;
+}
+.page-content{padding:4px 0 0 32px;}
+.page-resume .page-content{
+	display:block;
+	position:relative;
+	z-index:100;
+	text-align:left;
+}
+.content-holder{
+	padding:9px 0 0;
+	color:#4b4b4b;
+	font:12px/16px Helvetica, Arial, sans-serif;
+}
+.scrollable-area-wrapper{
+	overflow:visible !important;
+	width:100% !important;
+	height:auto !important;
+}
+.scrollable-area{
+	width:100% !important;
+	height:auto !important;
+	overflow:visible !important;
+}
+.content-holder h2{
+	font-size:12px;
+	line-height:14px;
+	text-transform:uppercase;
+	margin:0;
+}
+.content-holder h2 span{
+	text-transform:none;
+	display:inline-block;
+	vertical-align:bottom;
+	font:11px/14px Helvetica, Arial, sans-serif;
+}
+.content-holder .title,
+.content-holder .title-2{
+	font:bold 14px/18px Helvetica, Arial, sans-serif;
+	color:#000;
+	padding:0 17px 8px;
+	border-bottom:2px solid #000;
+	text-transform:uppercase;
+	margin:0 0 9px;
+}
+.columns{
+	padding:0 0 15px;
+	width:100%;
+	overflow:hidden;
+	line-height:15px;
+	font-size:11px;
+}
+.column{
+	float:left;
+	width:45%;
+	margin:0 0 0 5%;
+}
+.columns .column:first-child{margin-left:0;}
+.info{margin:0 0 8px;}
+.info-holder{
+	padding:0 0 0 18px;
+	margin:-1px 0 0;
+}
+.columns p{margin:0;}
+.page-folio.folio-step3{display:block;}
+.page-folio .visual.shirt{
+	height:755px;
+	width:634px;
+	padding:0 60px 0 0;
+}
+.slideshow{
+	position:absolute;
+	width:100%;
+	height:460px;
+	overflow:hidden;
+	top:200px;
+	right:34px;
+}
+.slideset{
+	float:right;
+	width:100%;
+	height:435px;
+	position:relative;
+	margin:20px 0 0;
+}
+.slideshow .slide{
+	position:absolute;
+	width:580px;
+	height:435px;
+	z-index:1;
+	top:0;
+	right:0;
+	display:none;
+}
+.slideshow img{
+	width:580px !important;
+	height:418px !important;
+	display:block;
+}
+.slideshow .slide:first-child{display:block !important;}
+.slideshow .slideset .images{
+	padding:0;
+	margin:0;
+	list-style:none;
+	overflow:hidden;
+}
+.images li{
+	float:left;
+	margin:0 8px 0 0;
+	display:none;
+}
+.images li:first-child{display:block !important;}
+.contact-box .email-esearcy,
+.contact-box .email-julia{
+	display:block;
+	width:100%;
+}
+.scrollable-area-wrapperm,
+.scrollable-area{
+	height:auto !important;
+	width:auto !important;
+}
+.slideset{
+	opacity:1 !important;
+	visibility:visible !important;
+	filter:none !important;
+}
+.gallery-holder .decor{
+	opacity:1 !important;
+	visibility:visible !important;
+	filter:none !important;
+}
+#page-folio,
+#page-contact{position:relative; top:auto !important;}
+#page-folio .gallery-holder .pre,
+.vscrollbar{display:none !important;}

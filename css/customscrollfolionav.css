@@ -1,0 +1,35 @@
+.folioverticalscrollbar {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: transparent;
+}
+
+.folioverticalscrollbar::-webkit-scrollbar {
+  width: 25px;
+}
+
+ .folioverticalscrollbar::-webkit-scrollbar-button:increment {
+  background-image: url(../images/arrowdown.png);
+  background-size: 15px;
+  background-repeat: no-repeat;   
+  background-position: center center;
+}
+
+  .folioverticalscrollbar::-webkit-scrollbar-button:decrement {
+  background-image: url(../images/arrowup.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.folioverticalscrollbar::-webkit-scrollbar-button:decrement:hover {
+    background-size: 25px;
+}
+
+.folioverticalscrollbar::-webkit-scrollbar-button:increment:hover {
+    background-size: 25px;
+}
+    
+.folioverticalscrollbar::-webkit-scrollbar-button:hover {
+    cursor: pointer;    
+}

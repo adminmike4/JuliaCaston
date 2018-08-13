@@ -1,0 +1,236 @@
+/* list styling */
+
+.gallerylist{
+    list-style-type: none;
+    overflow: hidden;
+	font:17px/24px belizariusregular, "Comic Sans MS", cursive, sans-serif;
+    border: none;
+}
+
+gallerylist a {
+    color:#242424;
+    text-shadow: none;
+    transition: text-shadow 1s ease-in-out;
+}
+
+.gallerylist a:hover {
+    color:#e81926;
+    cursor: pointer;
+}
+
+.gallerylist a:active {
+    text-shadow: 1px 1px 2px white, 0 0 25px black, 0 0 5px silver;
+}
+
+.gallerylist li {
+    text-align: right;
+    padding-bottom: 9px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallerylist li:hover {
+    margin-left: 11%;
+      -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+gallerylist ul {
+    
+}
+
+#listcontainer {
+    
+}
+
+/* single column CSS */
+
+#foliogallery {
+    background-color: transparent;
+}
+
+.folioshirt {
+    width: 320px;
+    height: auto;
+}
+
+#slideshow {
+    border-style: solid;
+    border-color: transparent;
+    background-color: transparent;
+    margin-top: -300px;
+    max-width: 300px;
+    height: 300px
+}
+
+iframe#embed
+{
+    background-color: transparent;
+    height: 225px;
+    border: none;
+    margin-left: -20px;
+    margin-top: 20px;
+    
+}
+
+#listcontainer {
+    margin-left: 15%;
+    margin-right: 0%;
+    max-height: 40%;
+    direction: rtl;
+    overflow: auto;
+    margin-bottom: 10px;
+    background-color: transparent;
+    margin-top: 0px;
+    max-width: 320px;
+    min-width: 100vw;
+}
+
+.gallerylist {
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.gallerylist li {
+    padding-right: 40%;
+}
+
+.gallerylist li:first-child{padding-top:20px;}
+.gallerylist a{
+	color:#242424;
+	text-decoration:none;
+}
+
+
+/* re-ordering columns in single column view 
+
+@media only screen and (max-width: 768px) {
+    #foliogallery {
+        order: 1;
+    }
+    
+    #foliolist {
+        order: 2;
+    }
+} */
+
+
+@media only screen and (min-width: 576px) {
+
+.folioshirt {
+    height: auto;
+    width: 500px;
+}
+
+#slideshow {
+    margin-top: -450px;
+    max-width: 480px;
+    height: 450px
+}
+
+iframe#embed
+{
+    height: 380px;
+    width: 480px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+#listcontainer {
+    margin-left: 20vw;
+    direction: rtl;
+    overflow: auto;
+    max-height: 15vh;
+    margin-bottom: 10px;
+    background-color: transparent;
+    margin-top: 0px;
+}    
+    
+    .gallerylist li {
+    text-align: right;
+    margin-right: 10%;
+}
+}
+
+/* start of double column styling */
+
+@media only screen and (min-width: 768px) {
+    
+#foliogallery {
+    
+    }
+ 
+.folioshirt {
+    height: auto;
+    width: 500px;
+}
+
+#slideshow {
+    width: 520px;
+    height: 370px;
+    margin-top: -450px;
+}
+    
+iframe#embed{   
+    height: 370px;
+    width: 500px; 
+}
+
+#foliolist {
+    padding-right: 0%;
+    }    
+    
+#listcontainer {
+    max-height: 60%;
+    direction: rtl;
+    overflow: auto;
+    margin-top: 110px;
+    margin-left: 0%;
+    margin-right: 0%;
+    min-width: 0%;
+} 
+    
+    .gallerylist {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 0px;
+    }
+    
+    .gallerylist li {
+    padding-right: 0%;
+    text-align: center;
+}
+    
+    .gallerylist li:hover {
+    margin-left: 0px;
+
+}
+}
+
+@media only screen and (min-width: 992px) {
+    
+.folioshirt {
+    width: 620px;
+    height: auto;
+}
+
+#slideshow {
+    width: 600px;
+    height: auto ;
+    margin-top: -570px;
+}
+    
+iframe#embed{
+    height: 485px;
+    width: 600px;
+    margin-left: -80px;
+}    
+}
+
+.loader {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    display: block;
+    width: 20%; 
+}

@@ -1,0 +1,48 @@
+.footer{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: linear-gradient(#DCDCDC 20%, white);
+    flex: none;
+    position: absolute;
+}
+
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.footer li{
+    display: inline;
+    font-size: 16pt;
+    padding-left: 15px;
+    float: right;
+    }
+
+.footer li a {
+    color: #242424;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer li a:hover {
+    color: #e1344f;
+}
+
+.footer li a:active{
+    color: #e1344f;
+}
+
+#JC {
+    
+}
+
+#JC:hover {
+    cursor: pointer;
+    filter: hue-rotate(180deg);
+    
+}
+
+#JC:active {
+    
+}

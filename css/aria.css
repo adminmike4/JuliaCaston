@@ -1,0 +1,103 @@
+[aria-label="gallery"] {
+    overflow-x: scroll;
+    outline-color: transparent; 
+    transition: outline-color 1.5s ease-in-out;
+}
+
+[aria-label="gallery"]:focus {
+  	position: relative;
+    outline: 2px;
+    outline-style: dashed; 
+    outline-color: lightgray;
+    outline-offset: 5px;
+}
+
+[aria-label="gallery"] table {
+  white-space: nowrap;
+}
+
+[aria-label="gallery"] td {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.instructions {
+    margin-top: 0%;
+    border: solid;
+    height: auto;
+    color: transparent;
+    transition: background-color 1s ease-in-out;
+    position: fixed;
+    right: 10%;
+    left: 10%;
+    top: ;
+    bottom: 0px;
+    z-index: 10;
+    display: block;
+    opacity: 1;
+    transition: opacity 5s ease-in-out;
+}
+
+.instructions p {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font:17px/24px belizariusregular, "Comic Sans MS", cursive, sans-serif;
+  background-color: ;
+    
+}
+
+#focus, #hover, #hover-and-focus {
+  display: none;
+  opacity: 1;
+}
+
+[aria-label="gallery"]:focus + .instructions #focus,
+[aria-label="gallery"]:hover + .instructions #hover {
+  display: block;
+  opacity: 1;
+}
+
+[aria-label="gallery"]:hover + .instructions #hover + #focus {
+  display: none;
+  opacity: 0;
+}
+
+[aria-label="gallery"]:hover:focus + .instructions #hover-and-focus {
+  display: block;
+  opacity: 1;
+
+}
+
+[aria-label="gallery"]:hover:focus + .instructions #hover-and-focus ~ * {
+  display: none;
+  opacity: 0;
+}
+
+.instructions svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: 1;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  vertical-align: -0.2rem;
+}
+
+.spantext {
+   background-color: #000;
+   border-top: solid black 5px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

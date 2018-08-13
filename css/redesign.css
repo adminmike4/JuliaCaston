@@ -1,0 +1,153 @@
+@font-face{
+	font-family:belizariusregular;
+	src:url('../fonts/belizarius.eot');
+	src:url('../fonts/belizariusd41d.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/belizarius.woff') format('woff'),
+		url('../fonts/belizarius.ttf') format('truetype'),
+		url('../fonts/belizarius.svg#belizariusregular') format('svg');
+}
+
+body{
+	margin:0;
+	color:#000;
+	font:11px/13px Arial, Helvetica, sans-serif;
+	background:#fff;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:none;
+}
+
+a{
+	color:#000;
+	text-decoration:underline;
+}
+a:hover{text-decoration:none;}
+a:active{background-color:transparent;}
+input,
+textarea,
+select{
+	font:100% Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#000;
+}
+
+.content-holder{
+	margin:0 0 0 -10px;
+	padding:2px 0 0;
+	color:#4b4b4b;
+	font:12px/14px Helvetica, Arial, sans-serif;
+	position:relative;
+}
+.content-holder h2{
+	font-size:14px;
+	line-height:17px;
+	text-transform:uppercase;
+	margin:0;
+}
+.content-holder h2 span{
+	text-transform:none;
+	font-size:12px;
+	font-weight:normal;
+	display:inline-block;
+	vertical-align:bottom;
+}
+
+.btn-grey{
+	background:url(../images/btn-grey.png) no-repeat;
+	width:144px;
+	height:25px;
+	text-align:center;
+	display:block;
+	font-size:11px;
+	line-height:14px;
+	color:#7d7d7f;
+	text-transform:uppercase;
+	text-decoration:none;
+	padding:6px 0 0;
+    margin-bottom: 0px;
+}
+
+.btn-grey:hover{color:#df2c48;}
+.scroll-content{padding:7px 0 0;}
+.content-holder .title,
+.content-holder .title-2{
+	font:bold 16px/19px Helvetica, Arial, sans-serif;
+	color:#303030;
+	padding:0 17px 8px;
+	background:url(../images/divider.png) no-repeat 0 100%;
+	text-transform:uppercase;
+	margin:0 0 9px;
+}
+.content-holder .title-2{
+	background:url(../images/divider-2.png) no-repeat 0 100%;
+	padding:0 0 12px 12px
+}
+
+.columns{
+	overflow:hidden;
+	padding:0 0 28px 17px;
+}
+.column{
+	float:left;
+	width:333px;
+	margin:0 0 0 0px;
+}
+.columns .column:first-child{margin-left:0;}
+.info{margin:0 0 12px;}
+.info-holder{
+	padding:0 0 0 18px;
+	margin:-1px 0 0;
+}
+.columns p{margin:0;}
+
+.contact-box a:hover{color:#e1344f;}
+.contact-box h2{
+	font:19px/22px "Comic Sans MS", cursive, sans-serif;
+	margin:0 0 3px;
+	letter-spacing:-1px;
+	word-spacing:-1px;
+	color:#f00;
+}
+
+
+
+.gallerylist{
+    list-style-type: none;
+	color:#242424;
+	font:17px/24px belizariusregular, "Comic Sans MS", cursive, sans-serif;
+}
+
+* +html .gallerylist ul{padding-top:2px;}
+.gallerylist li{
+	float:left;
+	width:100%;
+	padding:9px 0 0;
+}
+.gallerylist li:first-child{padding-top:2px;}
+.gallerylist a{
+	color:#242424;
+	text-decoration:none;
+}
+
+.gallerylist a:hover {
+    color:#e81926;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+    font-size: 20pt;
+    box-shadow:      
+}
+
+.logo{
+	background:url(../images/logo.png) no-repeat;
+	width:147px;
+	height:32px;
+	overflow:hidden;
+    
+}
+.logo a{
+	display:block;
+	height:100%;
+}
+
+.fab {
+    font-size: 36px;
+}
+
